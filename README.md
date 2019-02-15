@@ -10,7 +10,9 @@ Run the following command:
 `npm install --save react-calendar-events-preview`
 
 ## Usage
-`import EventsCalendar from 'react-calendar-events-preview
+
+```js
+import EventsCalendar from 'react-calendar-events-preview
 .
 .
 .
@@ -25,7 +27,7 @@ render(){
         />
     )
 }
-'`
+```
 
 ## Properties
 
