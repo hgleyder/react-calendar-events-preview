@@ -12,21 +12,21 @@ Run the following command:
 ## Usage
 
 ```js
-import EventsCalendar from 'react-calendar-events-preview
-.
-.
-.
-render(){
-    const events = [
-        {uuid: '1', date: '10-10-2018'},
-        {uuid: '2', date: '12-10-2018'},
-    ]
-    return(
-        <EventsCalendar 
-            events={events}
-        />
-    )
-}
+import EventsCalendar from 'react-calendar-events-preview'
+
+const events = [
+    {uuid: '1', date: '10-10-2018'},
+    {uuid: '2', date: '12-10-2018'},
+]
+
+const MyComponent = props => (
+  <div>
+    <EventsCalendar 
+        events={events}
+    />
+  </div>
+)
+
 ```
 
 ## Properties
