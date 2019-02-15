@@ -1,16 +1,11 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.default = void 0;
 
-var _EventsCalendar = require('./EventsCalendar');
+var _lib = require("./lib");
 
-Object.defineProperty(exports, 'EventsCalendar', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_EventsCalendar).default;
-  }
-});
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _default = _lib.EventsCalendar;
+exports.default = _default;
