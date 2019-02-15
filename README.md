@@ -1,5 +1,6 @@
-# simple-component-library
-A library of React components created using `create-react-app`.
+# React Calendar Events Preview
+![Alt text](assets/rcep-logo.png?raw=true "Logo")
+A Calendar component that marks the events dates.
 ## Installation
 Run the following command:
-`npm install react-calendar-events-preview`
+`npm install --save react-calendar-events-preview`
