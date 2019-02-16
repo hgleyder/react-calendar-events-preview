@@ -1,6 +1,6 @@
 {
   "name": "react-calendar-events-preview",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Ultimate calendar for your React app.",
   "main": "dist/index.js",
   "source": "src/index.js",
@@ -35,7 +35,6 @@
   },
   "license": "ISC",
   "dependencies": {
-    "aphrodite": "^2.2.3",
     "moment": "^2.24.0",
     "react-animations": "^1.0.0",
     "styled-components": "^4.1.3"
