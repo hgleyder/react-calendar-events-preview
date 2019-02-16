@@ -6,7 +6,7 @@
 A Calendar component that marks the events dates.
 
 <p align="center">
-  <img width="200" src="assets/rcep-prev.gif">
+  <img width="300" src="assets/rcep-prev.gif">
 </p>
 
 ## Installation
