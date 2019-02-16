@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, {keyframes} from 'styled-components';
 import { forEach, includes } from 'lodash';
+import { fadeIn } from 'react-animations';
 import moment from 'moment';
 
 class EventsCalendar extends React.Component {
@@ -165,12 +166,15 @@ const Wrapper = styled.div`
   min-height: 35rem;
 `;
 
+const fadeInAnimation = keyframes`${fadeIn}`;
+
 const CalendarContainer = styled.div`
   background-color: white;
   margin: 2rem 1rem;
   border-radius: 0.5rem;
   padding: 2rem 1rem;
   height: 100%;
+  animation: 1.5s ${fadeInAnimation};
 `;
 
 const MonthsContainer = styled.div`
@@ -193,8 +197,8 @@ const DayMarker = styled.div`
   position: relative;
   bottom: 0.9rem;
   padding: 0.8rem 0rem;
-  border: ${props => props.outlined && `1px solid ${(props.primaryColor || '#616FC6')}`};
-  background-color: ${props => props.filled && (props.primaryColor || '#616FC6')};
+  border: ${props => props.outlined && `1px solid ${(props.primaryColor)}`};
+  background-color: ${props => props.filled && (props.primaryColor)};
   color: ${props => props.filled && props.color};
 `;
 
@@ -242,8 +246,8 @@ EventsCalendar.propTypes = {
   EventsCalendar.defaultProps = {
     style: {},
     events: [],
-    color: '',
-    primaryColor: '',
+    color: '#FFFFFF',
+    primaryColor: '#616FC6',
   };
 
 export default EventsCalendar;
