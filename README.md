@@ -5,6 +5,10 @@
 # React Calendar Events Preview
 A Calendar component that marks the events dates.
 
+<p align="center">
+  <img width="200" src="assets/rcep-prev.gif">
+</p>
+
 ## Installation
 Run the following command:
 `npm install --save react-calendar-events-preview`
